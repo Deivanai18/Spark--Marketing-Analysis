@@ -102,25 +102,7 @@ object MiniProjectDemo{
       .mode("append")
       .save()
 
-    val structureSchema = new StructType()
-      .add("age", IntegerType)
-      .add("job", StringType)
-      .add("marital", StringType)
-      .add("education", IntegerType)
-      .add("default", StringType)
-      .add("balance", IntegerType)
-      .add("housing", StringType)
-      .add("loan", StringType)
-      .add("contact", IntegerType)
-      .add("day", IntegerType)
-      .add("month", StringType)
-      .add("duration", IntegerType)
-      .add("campaign", IntegerType)
-      .add("pdays", IntegerType)
-      .add("previous", IntegerType)
-      .add("poutcome", IntegerType)
-      .add("y", IntegerType)
-
+   
   }
 
 }
